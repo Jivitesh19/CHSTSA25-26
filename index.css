@@ -1,0 +1,102 @@
+body {
+  padding-top: 126px; 
+}
+.navbar-nav .nav-link {
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  vertical-align: middle;
+}
+
+.custom-navbar {
+  background-color: #075988;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h3 {
+  text-align: center;
+}
+
+.card-wrapper {
+  padding: 1.5rem;
+}
+
+.card a.btn {
+  margin-top: auto;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  padding-top: 15px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: white;
+}
+
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+.homescreen-card {
+  width: 100%;
+  max-width: auto;
+  height: auto;
+}
+.navbar .dropdown-menu {
+  background-color: #075988; 
+}
+.navbar .dropdown-item {
+  color: white; 
+}
+.navbar .dropdown-item:hover {
+  background-color: #ffffff75; 
+}
+
+.footer-bg {
+  background-color: #919191; /* light gray */
+}
+
+#footer footer {
+  width: 100%;
+}
+#footer a {
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 776px) {
+  #footer .d-flex.gap-4 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-weight: 500;
+}
