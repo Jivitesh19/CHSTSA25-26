@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TSA Webmaster</title>
+    <!--button-->
+    <link rel="stylesheet" href="Bootstrap/bootstrap-5.3.8-dist/css/bootstrap.min.css" />
+    <!--CDN link for Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap JS Bundle (Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg custom-navbar navbar-dark fixed-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="ParkerLogoblue.jpg" alt="Parker Logo" style="height: 100px;" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDiv"
+            aria-controls="navbarDiv" aria-expanded="false" aria-label="Toggle Navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarDiv">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="resources.html" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Resources
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="resources.html">All Resources</a></li>
+                        <li><a class="dropdown-item" href="Community&Recreation.html">Community & Recreation</a></li>
+                        <li><a class="dropdown-item" href="education.html">Education</a></li>
+                        <li><a class="dropdown-item" href="government.html">Government & Economy</a></li>
+                        <li><a class="dropdown-item" href="Tourism&Attractions.html">Tourism & Attractions</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="request.html">Request</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="reference.html">Reference</a>
+                </li>
+            </ul>
+        </div>
+        <!--Search Bar
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-info" type="submit">Search</button>
+        </form>-->
+    </nav>
+
+    <section id="Home">
+        <img src="WelcometoParker.jpg" class="img-fluid d-block mx-auto homescreen-card" alt="Downtown_Parker Image">
+        <h1 class="main text">Highlights</h1>
+        <!--<p class="subtitle">Parker, located in Douglas County with easy access to the Denver metropolitan area, is known
+            for its unique Western-Victorian downtown and its hometown feel.</p>
+        <style type="text/css">
+            .subtitle {
+                position: absolute;
+                top: 30%;
+                left: 35%;
+                color: white
+        }-->
+        </style>
+        <div class="row">
+            <div class="col-md-4 d-flex card-wrapper">
+                <div class="card w-100">
+                    <h3> Douglas County School District</h3>
+                    <img src="DCSDlogo.png" class="img-fluid d-block mx-auto" alt="Centered Image"
+                        style="max-width: 400px;">
+                    <p>The Douglas County School District (DCSD) is Colorado's third-largest school district, serving
+                        over 60,000 students in preschool through 12th grade. It is known for its wide range of
+                        educational choices, including open enrollment, charter schools, and a variety of programs like
+                        International Baccalaureate and Advanced Placement courses. DCSD also offers numerous Career and
+                        Technical Education (CTE) and concurrent enrollment pathways, preparing students for college,
+                        career, or military service. </p>
+                    <a href="https://www.dcsdk12.org/" class="btn btn-primary" role="button" target="_blank"
+                        rel="noopener noreferrer">Link</a>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex card-wrapper">
+                <div class="card w-100">
+                    <h3>Parker Government Website</h3>
+                    <img src="TownHall.jpg" class="img-fluid d-block mx-auto" alt="Centered Image"
+                        style="max-width: 400px;">
+                    <p>Parker, located in Douglas County with easy access to the Denver metropolitan area, is known
+                        for its unique Western-Victorian downtown and its hometown feel. Their website has information
+                        on
+                        Parker's elections, political processes, social events, and community programs.
+                        Residents looking for information on homeowning and
+                        public safety can easily find dedicated resources. Additionally, their website features the
+                        Town Council agendas, budget transparency tools, and project updates, giving the community
+                        insight into future development.
+                    </p>
+                    <a href="https://www.parkerco.gov/" class="btn btn-primary" role="button" target="_blank"
+                        rel="noopener noreferrer">Link</a>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex card-wrapper">
+                <div class="card w-100">
+                    <h3>The Parker Recreation Center</h3>
+                    <img src="ParkerRec.jpg" class="img-fluid d-block mx-auto" alt="Centered Image"
+                        style="max-width: 400px;">
+                    <p>
+                        The Parker Recreation Center, located at 17301 Lincoln Ave, Parker, CO 80134, offers a wide
+                        range of fitness,
+                        wellness, and recreational opportunities for residents of all ages.
+                        The facility includes a gymnasium, fitness studios, an indoor pool, and various sports courts.
+                        They provide numerous sports programs, classes, and events that promote a healthy lifestyle for
+                        youths and adults. Their website provides information of membership, class schedules, rentals,
+                        and special events.
+                        The Parker Recreation Center plays a key role in promoting an active lifestyle throughout the
+                        whole Town of Parker
+                    </p>
+                    <a href="https://www.parkerrec.com/" class="btn btn-primary" role="button" target="_blank"
+                        rel="noopener noreferrer">Link</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer" class="footer-bg">
+        <footer class="border-top py-4">
+            <div class="container">
+                <div class="d-flex flex-column gap-2">
+                    <span class="text-body-secondary">
+                        © Chaparral High School TSA Webmaster, Chapter ID: 1172
+                    </span>
+                    <div class="d-flex gap-5 footer-links">
+                        <a style="color: blue;" class="btn-link" href="index.html"> Home </a>
+                        <a style="color: blue;" class="btn-link" href="resources.html"> Resources </a>
+                        <a style="color: blue;" class="btn-link" href="Community&Recreation.html"> Community & Recreation </a>
+                        <a style="color: blue;" class="btn-link" href="education.html"> Education </a>
+                        <a style="color: blue;" class="btn-link" href="government.html"> Government & Economy </a>
+                        <a style="color: blue;" class="btn-link" href="tourism_attractions.html"> Tourism & Attractions
+                        </a>
+                        <a style="color: blue;" class="btn-link" href="request.html"> Request </a>
+                        <a style="color: blue;" class="btn-link" href="reference.html"> Reference </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script src="search.js"></script>
+</body>

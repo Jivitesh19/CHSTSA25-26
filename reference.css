@@ -1,0 +1,65 @@
+body {
+  padding-top: 126px; 
+}
+.navbar-nav .nav-link {
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  vertical-align: middle;
+}
+
+.custom-navbar {
+  background-color: #075988;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.card {
+  padding: 1.5rem;
+}
+.d-flex {
+  padding: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  padding-top: 15px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+body {
+  overflow-x: hidden;
+}
+.navbar .dropdown-menu {
+  background-color: #075988; 
+}
+.navbar .dropdown-item {
+  color: white; 
+}
+.navbar .dropdown-item:hover {
+  background-color: #ffffff75; 
+}
+.references{
+  padding-left: 25px;
+  text-align: center;
+}
+.ParkerPermission{
+  width: 75%
+}
+.ParkerPermission{
+  border: 10px solid black;
+}
+.th{ 
+  text-size-adjust: 40px
+  
+}

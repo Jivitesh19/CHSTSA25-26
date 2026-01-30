@@ -1,0 +1,40 @@
+body {
+  padding-top: 126px; 
+}
+.navbar-nav .nav-link {
+  font-weight: bold;
+}
+.navbar-brand img {
+  vertical-align: middle;
+}
+.custom-navbar {
+  background-color: #075988; 
+}
+html {
+  scroll-behavior: smooth;
+}
+h3{
+  text-align: center;
+}
+.d-flex{
+  padding: 1.5rem;
+}
+h2{
+  text-align: center;
+}
+p{ 
+  text-align: center;
+
+}
+label{
+    font-weight: bold;
+}
+.navbar .dropdown-menu {
+  background-color: #075988; 
+}
+.navbar .dropdown-item {
+  color: white; 
+}
+.navbar .dropdown-item:hover {
+  background-color: #ffffff75; 
+}
