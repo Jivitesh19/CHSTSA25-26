@@ -37,6 +37,7 @@ input{
 .card {
     padding: 1.5rem;
     border: 1px solid black;
+   
 }
 .card > .header {
     margin-bottom: 0.5rem;
@@ -77,4 +78,100 @@ h4{
 }
 .navbar .dropdown-item:hover {
   background-color: #ffffff75; 
+  transform: scale(1.02)
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(37, 150, 190), 0 1.5px 6px rgba(37, 150, 190);
+  z-index: 2;
+  
+}
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* Sticky footer position and size
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 300px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 300px;
+}
+
+/* Taller footer on small screens */
+@media (min-width: 1200px) {
+    body {
+      margin-bottom: 300px;
+    }
+    .footer {
+      height: 245px;
+    }
+}
+
+@media (max-width: 758px) {
+    body {
+      margin-bottom: 800px;
+    }
+    .footer {
+      height: 45rem;
+    }
+}
+
+@media screen and (min-width: 920px) and (max-width: 1200px) {
+    body {
+      margin-bottom: 390px;
+    }
+    .footer {
+      height: 19rem;
+    }
+}
+
+@media screen and (min-width: 758px) and (max-width: 920px) {
+    body {
+      margin-bottom: 390px;
+    }
+    .footer {
+      height: 22rem;
+    }
+}
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
+}
+
+footer a {
+  color: #999;
+  text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgb(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
 }

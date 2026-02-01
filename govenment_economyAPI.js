@@ -95,7 +95,7 @@ const government_economyAPI = (() => {
       address: "📍 Address: 100 Third St., 2nd Floor Castle Rock, CO 80104", 
       phone: "📞 Phone: (303)-660-7460",
       email: "✉️ Email: N/A",
-      website: "https://wwwdouglas.co.us/community-services/services/self-sufficiency/pathways-to-employment/"
+      website: "https://www.adworks.org/"
     }
     
   ];

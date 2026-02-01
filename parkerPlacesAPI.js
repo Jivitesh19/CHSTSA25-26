@@ -404,14 +404,6 @@ const ParkerPlacesAPI = (() => {
       website: "https://parkerarts.org/" 
     },
     {
-      id: 33,
-      name: "Parker Chamber",
-      address: "📍 Address: 19751 E Mainstreet - Suite R16 Parker, CO 80138",
-      phone: "📞 Phone: (303)-841-4268",
-      email: "✉️ Email: town@parkeronline.org",
-      website: "https://www.parkerchamber.com/" 
-    },
-    {
       id: 67,
       name: "Dawson Butte Ranch & Douglas Open Space",
       address: "📍 Address: 1753 Tomah Rd, Castle Rock, CO 80109", 
@@ -433,7 +425,7 @@ const ParkerPlacesAPI = (() => {
       address: "📍 Address: 7740 Lakeshore Dr. Parker, CO 80134", 
       phone: "📞 Phone: (720)-733-6990",
       email: "✉️ Email: parksandtrails@douglas.co.us",
-      website: "https://www.douglas.co.us/rueter-hess-recreation/"  
+      website: "https://www.douglas.co.us/parks-trails-building-grounds/parks-trails/bingham-lake-park/"  
     },
     {
       id: 56,
@@ -570,7 +562,7 @@ const ParkerPlacesAPI = (() => {
       address: "📍 Address: 100 Third St., 2nd Floor Castle Rock, CO 80104", 
       phone: "📞 Phone: (303)-660-7460",
       email: "✉️ Email: N/A",
-      website: "https://wwwdouglas.co.us/community-services/services/self-sufficiency/pathways-to-employment/"
+      website: "https://www.adworks.org/"
     }
     
   ];
